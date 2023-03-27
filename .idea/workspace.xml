@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9145d794-b2b6-4d4c-ae1a-e9d01fa989ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lags/Lags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lags/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9145d794-b2b6-4d4c-ae1a-e9d01fa989ec" name="Changes" comment="added source code for main program and revenue calculation">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/lags/RentTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lags/Rent.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -42,12 +39,15 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "last_opened_file_path": "/Users/christophethibaut/Coding/lags-legacy-java-kata",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -55,8 +55,14 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.lags" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="org.lags" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.RentTest">
     <configuration name="Rent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lags.Rent" />
       <module name="lags-legacy-java-kata" />
@@ -70,8 +76,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lags-legacy-java-kata" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.lags.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.lags" />
+      <option name="MAIN_CLASS_NAME" value="org.lags.RentTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.RentTest" />
         <item itemvalue="Application.Rent" />
       </list>
     </recent_temporary>
@@ -85,8 +107,16 @@
       <option name="presentableId" value="Default" />
       <updated>1679910523409</updated>
       <workItem from="1679910524568" duration="594000" />
-      <workItem from="1679923425518" duration="638000" />
+      <workItem from="1679923425518" duration="1070000" />
     </task>
+    <task id="LOCAL-00001" summary="added source code for main program and revenue calculation">
+      <created>1679924151518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924151518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,5 +132,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added source code for main program and revenue calculation" />
+    <option name="LAST_COMMIT_MESSAGE" value="added source code for main program and revenue calculation" />
   </component>
 </project>
