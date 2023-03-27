@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lags:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9145d794-b2b6-4d4c-ae1a-e9d01fa989ec" name="Changes" comment="added source code for main program and revenue calculation">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/lags/RentTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9145d794-b2b6-4d4c-ae1a-e9d01fa989ec" name="Changes" comment="added a dummy test">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Lags_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list_orders" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +54,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "inlay.hints",
     "vue.rearranger.settings.migration": "true"
   }
@@ -107,7 +117,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679910523409</updated>
       <workItem from="1679910524568" duration="594000" />
-      <workItem from="1679923425518" duration="1070000" />
+      <workItem from="1679923425518" duration="2351000" />
     </task>
     <task id="LOCAL-00001" summary="added source code for main program and revenue calculation">
       <created>1679924151518</created>
@@ -116,7 +126,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679924151518</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added a dummy test">
+      <created>1679924579497</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924579497</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added a dummy test">
+      <created>1679924628965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679924628965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +159,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added source code for main program and revenue calculation" />
-    <option name="LAST_COMMIT_MESSAGE" value="added source code for main program and revenue calculation" />
+    <MESSAGE value="added a dummy test" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a dummy test" />
   </component>
 </project>
