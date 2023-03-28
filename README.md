@@ -31,7 +31,18 @@ Here are the different combinations given the file above :
 ```
 The best possible revenue here is 180, selecting the 1st and 4th orders.
 
-## Material
+## Command Line Interface
+
+First set the variable `LAGS_ORDER_FILE` to one of the files in the `data` folder.
+
+* ` revenue` : outputs the best possible revenue with the given csv file.
+
+* ` list_orders` : outputs a list of the orders in the csv file.
+
+* ` add_order <id> <start> <duration> <price>` adds an order to the csv file.
+
+* ` add_order <id>` remove the specified order from the csv file.
+
 
 ## Bug
 
